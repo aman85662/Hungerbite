@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+    color: #f45d48;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+   
+}
+body{
+    background-color:#232946;
+}
+h2{
+    color: #f45d48;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.aga{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ava{
+    height: 130px;
+    width: 120px;
+    border: 5px solid #FFFFFF ;
+    background-color: #fbdd74;
+    text-align: center;
+    border-radius: 20%;
+   
+    
+}
+.ava img{
+    height: 50px;
+    padding-left: 0px 50px;
+}
+.ava button{
+    border-radius: 20px;
+    background-color: #ff6e6c;
+}
+.ava button:hover{
+    background-color: #FFFFFF;
+    transition: 2s;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    body {
+      background-color: #232946;
+    }
+  }
+  
