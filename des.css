@@ -12,11 +12,11 @@ body{
 h2{
     color: #f45d48;
     font-family: "New Amsterdam", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
 }
 .ava:hover{
-    transform: scale(0.9);
+    transform: scale(1.1);
     transition: ease-in-out 2s;
 }
 .aga{
@@ -33,8 +33,7 @@ h2{
     background-color: #fbdd74;
     text-align: center;
     border-radius: 20%;
-   
-    
+    font-size: 15px;
 }
 .ava img{
     height: 50px;
@@ -50,13 +49,14 @@ h2{
 }
 @media screen and (max-width: 600px) {
     body {
-      background-color: lightblue;
+        background-color:#232946;
     }
 .ava{
     height: 120px;
     width: 100px; 
-    border-radius: 10%;
+    border-radius: 20%;
     margin: 5px 5px;
+    font-size: 10px;
 }
 .ava img{
     height: 30px;
@@ -72,6 +72,12 @@ h2{
 .ava button:hover{
     background-color: #ac9595;
 }
+.indi{
+    height: 400px;
+}
+.foo3t{
+margin-top: 100px;
+}
   }
   @media only screen and (min-width: 1024px) {
     body {
@@ -86,4 +92,13 @@ h2{
     font-style: italic;
     height: 125px;
   }
+  .indi{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ flex-wrap: wrap;
+}
+  
   
