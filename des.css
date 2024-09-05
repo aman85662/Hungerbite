@@ -20,7 +20,7 @@ h2{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .ava{
     height: 130px;
@@ -41,17 +41,60 @@ h2{
     background-color: #ff6e6c;
 }
 .ava button:hover{
-    background-color: #FFFFFF;
-    transition: 2s;
+    background-color: #969191;
+    transition: 1s;
 }
 @media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
     }
+.ava{
+    height: 120px;
+    width: 100px; 
+    border-radius: 10%;
+}
+.ava img{
+    height: 30px;
+}
+.ava button{
+    height: 30px;
+    font-size: 10px;
+}
+.ava button:hover{
+    background-color: #ac9595;
+    transition: 1s;
+}
+.class{
+    font-size: 25px;
+    text-align: center;
+    color: #f45d48;
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  h1{
+    text-align: center;
+    color: #f45d48;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+   
+}
   }
   @media only screen and (min-width: 1024px) {
     body {
       background-color: #232946;
     }
+  }
+  .class{
+    font-size: 75px;
+    text-align: center;
+    color: #f45d48;
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  h2{
+    height: 50px;
   }
   
