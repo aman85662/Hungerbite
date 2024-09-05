@@ -15,6 +15,10 @@ h2{
     font-weight: 400;
     font-style: normal;
 }
+.ava:hover{
+    transform: scale(0.9);
+    transition: ease-in-out 2s;
+}
 .aga{
     height: 200px;
     width: 100%;
@@ -44,7 +48,7 @@ h2{
     background-color: #969191;
     transition: 1s;
 }
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     body {
       background-color: lightblue;
     }
@@ -52,6 +56,7 @@ h2{
     height: 120px;
     width: 100px; 
     border-radius: 10%;
+    margin: 5px 5px;
 }
 .ava img{
     height: 30px;
@@ -60,25 +65,12 @@ h2{
     height: 30px;
     font-size: 10px;
 }
+.ava:hover{
+    transform: scale(0.9);
+    transition: ease-in-out 2s;
+}
 .ava button:hover{
     background-color: #ac9595;
-    transition: 1s;
-}
-.class{
-    font-size: 25px;
-    text-align: center;
-    color: #f45d48;
-    font-family: "Quattrocento Sans", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  h1{
-    text-align: center;
-    color: #f45d48;
-    font-family: "New Amsterdam", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-   
 }
   }
   @media only screen and (min-width: 1024px) {
@@ -86,15 +78,12 @@ h2{
       background-color: #232946;
     }
   }
-  .class{
-    font-size: 75px;
+  .foo3t{
     text-align: center;
     color: #f45d48;
     font-family: "Quattrocento Sans", sans-serif;
     font-weight: 600;
     font-style: italic;
-  }
-  h2{
-    height: 50px;
+    height: 125px;
   }
   
